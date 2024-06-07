@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo-header{
+    height: 100px;
+    width: auto;
+}
+
+.redirection{
+    margin-left: 50px; 
+    text-decoration: none; 
+    color: #1E3A56;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+.redirection:hover{
+    color: #346697;
+}
+
+
