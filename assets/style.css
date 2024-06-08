@@ -1,0 +1,98 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1E3A56;
+}
+
+.boutton{
+    border-radius: 10px;
+    background-color: #1E3A56;
+    color: #F4F6F8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border: none;
+}
+
+.ajouter{
+    margin-top: 10px;
+    margin-left: 26%;
+}
+
+.boutton:hover{
+    background-color: #346697;
+}
+
+.box{
+    
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F4F6F8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 95%;
+    z-index: 1000;
+    margin-left: 1%;
+    
+    
+}
+
+.logo-header{
+    height: 100px;
+    width: auto;
+}
+
+.redirection{
+    margin-left: 50px; 
+    text-decoration: none; 
+    color: #1E3A56;
+    font-weight: 700;
+    
+}
+
+.redirection:hover{
+    color: #346697;
+}
+
+.actifs{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5%;
+    color: #1E3A56;
+}
+
+.user{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5%;
+    color: #1E3A56;
+}
+
+.create-user{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 15%;
+    margin-left: 5%;
+    color: #1E3A56;
+}
+
+.contenu1{
+    padding-top: 10%;
+    line-height: 0.2;
+}
+
+h4, p{
+    display: block;
+}
+
+input{
+    border-radius: 7px;
+    border: 1px solid #1E3A56;
+}

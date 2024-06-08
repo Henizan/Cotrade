@@ -6,16 +6,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="box header">
-        <img src="../image/LOGO.png" alt="CoTrade Logo" class="logo-header"><h3>
+        <img src="../assets/image/LOGO.png" alt="CoTrade Logo" class="logo-header"><h3>
         <a href="../index.html" class="redirection">Accueil</a>
         <a href="../Trades/trades.html" class="redirection">Trades</a>
         <a href="../Portefeuille/Portefeuille.html" class="redirection">Portefeuille</a>
-        <a href="Gestion-user/gestion-user.html" class="redirection">Gestion utilisateur</a></h3>
+        <a style="color: #346697;" href="gestion-user.html" class="redirection">Gestion utilisateur</a></h3>
     </div>
+    <div class="contenu1">
+        <div class="box user">
+            <h4>Utilisateurs Existant</h4>
+            <ul id="user-list">
+            </ul>
+        </div>
+        <div class="box create-user">
+        <h4 style="margin-left: 5%;">Ajouter un utilisateur</h4><br>
+        <input id="username" type="text" name="username" required><br>
+        <button type="submit" class="boutton ajouter">Ajouter</button>
+        </div>
+    </div>
+    
 </body>
 </html>
