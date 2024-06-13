@@ -17,9 +17,10 @@ a{
 }
 
 .ajouter{
-    margin-top: 10px;
-    margin-left: 26%;
+    margin-top: 10%;
+    margin-left: 30%;
 }
+
 
 .boutton:hover{
     background-color: #346697;
@@ -92,7 +93,16 @@ h4, p{
     display: block;
 }
 
-input{
-    border-radius: 7px;
-    border: 1px solid #1E3A56;
+
+
+.user-name{
+    background-color: #ECF3FF;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    height: 25px;
+}
+
+.user-name:focus{
+    outline: 1px solid #346697;
+    border: none;
 }

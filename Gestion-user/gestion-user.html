@@ -24,11 +24,13 @@
             </ul>
         </div>
         <div class="box create-user">
+            <form id="create-user-form" action="../php/add_user.php" method="post">
         <h4 style="margin-left: 5%;">Ajouter un utilisateur</h4><br>
-        <input id="username" type="text" name="username" required><br>
+        <input class="user-name" placeholder="Nom d'utilisateur" id="username" type="text" name="username" required><br>
         <button type="submit" class="boutton ajouter">Ajouter</button>
+    </form>
         </div>
     </div>
-    
+
 </body>
 </html>
