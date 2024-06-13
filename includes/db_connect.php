@@ -1,10 +1,7 @@
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "cotrade_db";
+<?php
+$user = "root";
+$pass = "";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$db = new PDO('mysql:host=localhost;dbname=cotrade_db', $user, $pass);
 
-if ($conn->connect_error) {
-    die("Connection failed :" . $conn->connect_error);
-}
+?>
